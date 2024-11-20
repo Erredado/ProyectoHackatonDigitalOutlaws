@@ -6,6 +6,35 @@
     <title>Fundaciones</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Ayudemos Juntos</h1>
+        <nav>
+          <a href="#inicio">Inicio</a>
+          <a href="#donaciones">Donaciones</a>
+          <a href="#impacto">Impacto</a>
+        </nav>
+      </header>
+      <main>
+        <section id="inicio">
+          <h2>Bienvenido</h2>
+          <p>Conoce cómo puedes ayudar a cambiar vidas a través de tus donaciones.</p>
+        </section>
+        <section id="donaciones">
+          <h2>Donaciones</h2>
+          <p>Selecciona una causa para donar:</p>
+          <button onclick="registrarDonacion()">Donar Ahora</button>
+        </section>
+        <section id="impacto">
+          <h2>Impacto</h2>
+          <p>Porcentaje de personas que han donado:</p>
+          <div id="progress-bar">
+            <div id="progress" style="width: 0%;"></div>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>&copy; 2024 Ayudemos Juntos</p>
+      </footer>
+      <script src="scripts.js"></script>
 </body>
 </html>
